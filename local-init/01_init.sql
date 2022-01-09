@@ -1,0 +1,9 @@
+CREATE TABLE "Bookings"
+(
+  id UUID PRIMARY KEY NOT NULL,
+  hotelid INTEGER NOT NULL,
+  arrive TEXT NOT NULL,
+  leave TEXT NOT NULL,
+  name TEXT NOT NULL
+);
+
